@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.home-page{
+    background-color: #f4f4f4;
+    height: 100vh;
+
+}
+.home-header{
+    background: linear-gradient(to right, #1ab9f8, #071768);
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f4f4f4;
+}
+.home-body{
+    height: 93vh;
+    display: flex;
+}
+.home-body-sidebar{
+    background: linear-gradient(to top, #1ab9f8, #071768);
+    width: 4vw;
+    padding-top: 1.5vh;
+}
+.home-body-sidebar .icontag{
+    display: flex;
+    flex-direction: column;
+    color: #f4f4f4;
+    align-items: center;
+    justify-content: center;
+    height: 7.6vh;
+    cursor: pointer;
+} 
+.home-body-sidebar .icontag:hover{
+    background-color: #071768;
+    border-radius: 10px;
+}
+.home-body-sidebar .icontag .icon{
+  margin-top: 1vh;
+    font-size: 1.8rem;
+}
+.home-body-sidebar .icontag .name{
+   font-size: 0.5rem;
+   font-weight: 600;
+   padding: 0;
+}
+.home-body-sidebar .icontag1{
+    display: flex;
+    flex-direction: column;
+    color: #f4f4f4;
+    align-items: center;
+    justify-content: center;
+    height: 7.6vh;
+    cursor: pointer;
+}
+.home-body-sidebar .icontag .icon{
+    font-size: 1.8rem;
+}
+.home-body-content-table{
+    width: 96vw;
+}
+ td{
+    vertical-align: middle;
+}
+
+th{
+    height: 6vh;
+    background-color: #007bff;
+}
+.icon-circle {
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    /* background-color: #007bff; or any color */
+    border: solid 2px #007bff ;
+    color: #007bff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 10px;
+  }
+  .icon-circle1 {
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    background-color: #f4f4f4; 
+    color: #007bff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .icon-square{
+    width: 1.1rem;
+    height: 1.8rem;
+    border-radius: 20%;
+    border: solid 2px black ;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  .icon-circle2 {
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    border: solid 2px black ;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+  }
+
+  .active{
+    color: #007bff; 
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 6px; 
+    display: flex;
+    margin-left: 2rem;
+    cursor: pointer;
+
+  }
+  .inactive{
+    display: flex;
+    margin-left: 2rem;
+    cursor: pointer;
+  }
+  .active .icon-square{
+    width: 1.1rem;
+    height: 1.8rem;
+    border-radius: 20%;
+    border: solid 2px #007bff ;
+    color: #007bff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  .active .icon-circle2{
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    /* background-color: #007bff; or any color */
+    border: solid 2px #007bff ;
+    color: #007bff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 10px;
+  }
+  .search{
+    position: relative;
+    
+  }
+  .search input{
+    border: none;
+    border-bottom: solid 1px;
+    background-color: #f4f4f4;
+    outline: none;
+    padding-left: 4vh;
+    font-size: 0.9rem;
+    padding-bottom: 1vh;
+  }
+
+  .search-icon{
+    position: absolute;
+    bottom:2.3vh;
+    font-size: 3vh;
+    left: 0.5vh;
+
+  }
+
+  .pagination {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: black;
+}
+
+.p-icon {
+    border: none;
+    color:black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1.4rem;
+}
+
+.p-icon:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.p-icon:hover:not(:disabled) {
+    color: #0056b3;
+}
