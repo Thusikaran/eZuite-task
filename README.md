@@ -5,9 +5,9 @@
 - css
 ## How run the Code
 - Fetch git repository
-bash ``` git clone https://github.com/Thusikaran/eZuite-task.git ```
+``` git clone https://github.com/Thusikaran/eZuite-task.git ```
 - Install all nessary package using
-bash ``` npm i ```
+``` npm i ```
 - Run the application
-bash ``` npm run dev```
+``` npm run dev```
 
