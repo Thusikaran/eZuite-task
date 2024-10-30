@@ -3,4 +3,11 @@
 - React-vite
 - Bootstrap
 - css
-## How Access the Code
+## How run the Code
+- Fetch git repository
+``` git clone https://github.com/Thusikaran/eZuite-task.git ```
+- install All package
+  ``` npm i ```
+- Run the application
+ ``` npm run dev```
+
