@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from '../Components/Header'
-import Body from '../Components/Body'
 import Sidebar from '../Components/Sidebar'
 import Content from '../Components/Content'
 
